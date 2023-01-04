@@ -9,7 +9,7 @@
   <body>
     <script>
       function palRecursion(num, a = 1) {
-        if (a >= 50) return;
+        if (a >= 1000000) return;
         let numReverse = num + num.toString().split("").reverse().join("") * 1;
         if (
           numReverse.toString() ===
